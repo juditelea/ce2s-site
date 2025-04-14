@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.header {
+  background: #222;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.footer {
+  background: #eee;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pilares {
+  margin-top: 50px;
+  background-color: #f5f5f5;
+  padding: 30px 20px;
+  border-radius: 12px;
+}
+
+.pilares h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.pilar {
+  margin-bottom: 25px;
+  text-align: left;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pilar h3 {
+  font-size: 1.3rem;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+.pilar p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.servico {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 40px auto;
+  border-radius: 10px;
+  max-width: 800px;
+  font-size: 1.1rem;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  background-color: #222;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+/* Estilo do dropdown */
+.dropdown {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%; /* abaixo do item pai */
+  left: 0;
+  background-color: #333;
+  padding: 10px 0;
+  border-radius: 6px;
+  min-width: 150px;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.submenu a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.submenu a:hover {
+  background-color: #444;
+}
+
+/* Mostrar submenu ao passar o mouse */
+.dropdown:hover .submenu {
+  display: block;
+}
+
+.lista-competencias {
+  display: flex;
+  justify-content: center;  /* <-- centraliza horizontalmente */
+  gap: 60px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.lista-competencias ul {
+  list-style: disc inside;
+ /* margin-left: 100px; */
+  padding: 0;
+  margin: 0px;
+  min-width: 200px;
+}
+
+.lista-competencias li {
+  font-size: 1.0rem;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: left; /* garante que o texto fique alinhado também */
+}
+
+.lista-competencias ul ul {
+  list-style: disc inside;
+  padding: 10px;
+  margin: 0;
+  min-width: 200px;
+}
+
+.lista-competencias ul ul li {
+  font-size: .8rem;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: left; /* garante que o texto fique alinhado também */
+}
+
+.lista-servicos {
+  display: flex;
+  justify-content: center;  /* <-- centraliza horizontalmente */
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.lista-servicos ul {
+  list-style: disc inside;
+  padding: 0;
+  margin: 0px;
+  min-width: 200px;
+}
+
+.lista-servicos li {
+  font-size: 1.0rem;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: left; /* garante que o texto fique alinhado também */
+  line-height: 2.3;
+}
+
+.texto-descricao {
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: left;
+  font-size: .9rem;
+  line-height: 1.6;
+  border: 1px solid #007BFF; /* azul forte */
+  border-radius: 8px;         /* cantos arredondados */
+  background-color: #f9f9f9;  /* fundo suave (opcional) */
+  color: #333;
+}
