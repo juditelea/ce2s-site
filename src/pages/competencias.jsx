@@ -52,9 +52,10 @@ export default function Competencias() {
             </ul>
             <li>Melhoria de Processos</li>
             <li>
-              Plataformas de Desenvolvimento de Software Cliente- Servidor
+              Plataformas para desenvolvimento de software em Arquitetura
+              cliente-servidor
             </li>
-            <li>Plataformas de Desenvolvimento de aplicações Web</li>
+            <li>Plataformas para desenvolvimento de aplicações Web modernas</li>
             <li>Telecomunicações</li>
             <li>Trabalho em Equipe</li>
           </ul>

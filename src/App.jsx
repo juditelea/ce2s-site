@@ -34,7 +34,7 @@ function App() {
           </div>
 
           <div className="pilar">
-            <h3>3. Sustentados</h3>
+            <h3>3. Sustentabilidade</h3>
             <p>
               Competitividade e Equilíbrio devem ser -- SUSTENTADOS -- para o
               futuro.
